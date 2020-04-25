@@ -10,8 +10,10 @@ import { EmployeeComponent } from './employee/employee.component';
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeComponent
-  ],
+    EmployeeComponent,
+  ], 
+ 
+
   imports: [
     BrowserModule,
     FormsModule,
@@ -21,3 +23,5 @@ import { EmployeeComponent } from './employee/employee.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

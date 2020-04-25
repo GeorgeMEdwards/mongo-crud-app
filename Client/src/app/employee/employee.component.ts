@@ -19,6 +19,7 @@ export class EmployeeComponent implements OnInit {
   ngOnInit() {
     this.resetForm();
     this.refreshEmployeeList();
+    
   }
 
   resetForm(form?: NgForm) {
